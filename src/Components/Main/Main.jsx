@@ -17,7 +17,7 @@ const data = [
 
 const Main = () => {
     return (
-        <div className="my-5 py-5">
+        <div className="container py-5">
             <Gallery data={data}/>
         </div>
     )

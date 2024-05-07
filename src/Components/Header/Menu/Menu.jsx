@@ -1,20 +1,22 @@
+import { NavLink } from "react-router-dom";
+
 const Menu = () => {
     return (
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link text-light" aria-current="page" href="#">
+                <NavLink className={({isActive}) => (isActive ? "nav-link text-light fw-bold" : "nav-link text-light")} aria-current="page" to="/">
                     Home
-                </a>
+                </NavLink>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#">
+                <NavLink className={({isActive}) => (isActive ? "nav-link text-light fw-bold" : "nav-link text-light")} to="/about">
                     About
-                </a>
+                </NavLink>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#">
+                <NavLink className={({isActive}) => (isActive ? "nav-link text-light fw-bold" : "nav-link text-light")} to="/contacts">
                     Contacts
-                </a>
+                </NavLink>
             </li>
         </ul>
     );

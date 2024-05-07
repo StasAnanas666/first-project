@@ -2,7 +2,7 @@ import Card from "./Card/Card";
 
 const Gallery = (props) => {
     return (
-        <div className="container">
+        <div>
             <h2 className="text-center mb-4">Gallery</h2>
             <div className="row d-flex justify-content-between align-items-center">
                 {
