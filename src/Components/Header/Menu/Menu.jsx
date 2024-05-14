@@ -9,6 +9,11 @@ const Menu = () => {
                 </NavLink>
             </li>
             <li class="nav-item">
+                <NavLink className={({isActive}) => (isActive ? "nav-link text-light fw-bold" : "nav-link text-light")} aria-current="page" to="/blogs">
+                    Blogs
+                </NavLink>
+            </li>
+            <li class="nav-item">
                 <NavLink className={({isActive}) => (isActive ? "nav-link text-light fw-bold" : "nav-link text-light")} to="/about">
                     About
                 </NavLink>
