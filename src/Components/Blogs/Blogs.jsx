@@ -11,7 +11,7 @@ const BlogsMenu = () => {
                             : "nav-link text-dark"
                     }
                     aria-current="page"
-                    to="/blogs"
+                    to="/blogs/news"
                 >
                     News Blogs
                 </NavLink>
@@ -24,7 +24,7 @@ const BlogsMenu = () => {
                             : "nav-link text-dark"
                     }
                     aria-current="page"
-                    to="/blogs/movie-blogs"
+                    to="/blogs/movies"
                 >
                     Movie Blogs
                 </NavLink>
@@ -37,7 +37,7 @@ const BlogsMenu = () => {
                             : "nav-link text-dark"
                     }
                     aria-current="page"
-                    to="/blogs/music-blogs"
+                    to="/blogs/music"
                 >
                     Music Blogs
                 </NavLink>
@@ -49,7 +49,7 @@ const BlogsMenu = () => {
                             ? "nav-link text-dark fw-bold"
                             : "nav-link text-dark"
                     }
-                    to="/blogs/sport-blogs"
+                    to="/blogs/sport"
                 >
                     Sport Blogs
                 </NavLink>

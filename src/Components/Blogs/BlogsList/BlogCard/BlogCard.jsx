@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const BlogCard = (props) => {
     return (
@@ -7,7 +7,7 @@ const BlogCard = (props) => {
                 <div class="card-body">
                     <h5 class="card-title">{props.title}</h5>
                     <p class="card-text">{props.text}</p>
-                    <Link to="#" class="btn btn-primary">
+                    <Link to={`/blogs/${props.type}/${props.id}`} class="btn btn-primary">
                         Read more
                     </Link>
                 </div>

@@ -9,10 +9,10 @@ const BlogDesc = (props) => {
     } else {
         return (
             <div className="col-sm-12 col-md-12 col-lg-12">
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h5 class="card-title">{blog.title}</h5>
-                        <p class="card-text">{blog.text}</p>
+                <div className="card mb-4">
+                    <div className="card-body">
+                        <h5 className="card-title">{blog.title}</h5>
+                        <p className="card-text">{blog.text}</p>
                     </div>
                 </div>
             </div>
